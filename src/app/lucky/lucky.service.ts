@@ -13,4 +13,8 @@ export class LuckyService {
   beLucky(): void {
     this.myValue = '🍀';
   }
+
+  beVeryLucky(): void {
+    this.myValue = '🍀🍀';
+  }
 }

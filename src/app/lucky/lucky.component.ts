@@ -12,5 +12,7 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./lucky.component.scss']
 })
 export class LuckyComponent {
-  constructor(public luckyService: LuckyService) { }
+  constructor(public luckyService: LuckyService) {
+    luckyService.beLucky();
+   }
 }

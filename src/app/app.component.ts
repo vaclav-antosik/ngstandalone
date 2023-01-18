@@ -11,7 +11,5 @@ import { LuckyService } from './lucky/lucky.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor(luckyService: LuckyService) {
-    luckyService.beLucky();
-  }
+  constructor(public luckyService: LuckyService) { }
 }
