@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { LuckyService } from '../../lucky.service';
 
 @Component({
   selector: 'app-lucky.child2',
@@ -9,5 +10,7 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./lucky.child2.component.scss']
 })
 export class LuckyChild2Component {
+  constructor(public luckyService: LuckyService) {
 
+  }
 }
